@@ -4,6 +4,7 @@ import tour3 from "./images/tour-3.jpeg";
 import tour4 from "./images/tour-4.jpeg";
 import tour5 from "./images/tour-5.jpeg";
 import tour6 from "./images/tour-6.jpeg";
+import tour7 from "./images/tour-7.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
@@ -128,5 +129,16 @@ export const tours = [
     location: "india",
     duration: 10,
     cost: 2500,
+  },
+  {
+    id: 7,
+    image: tour7,
+    date: "february 20th, 2026",
+    title: "Scotland Highlands Adventure",
+    info:
+      "Journey through the breathtaking Scottish Highlands, explore ancient castles, charming villages, and misty lochs while soaking in rich history and stunning landscapes.",
+    location: "scotland",
+    duration: 8,
+    cost: 3950,
   },
 ];
