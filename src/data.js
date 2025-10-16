@@ -5,6 +5,8 @@ import tour4 from "./images/tour-4.jpeg";
 import tour5 from "./images/tour-5.jpeg";
 import tour6 from "./images/tour-6.jpeg";
 import tour7 from "./images/tour-7.jpg";
+import tour8 from "./images/tour-8.jpg";
+import tour9 from "./images/tour-9.avif";
 
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
@@ -140,5 +142,27 @@ export const tours = [
     location: "scotland",
     duration: 8,
     cost: 3950,
+  },
+  {
+    id: 8,
+    image: tour8,
+    date: "July 10th, 2027",
+    title: "Russia Far East Expedition",
+    info:
+      "Discover the wild beauty of Russia’s Far East: volcanoes, pristine lakes, and untouched forests. Explore Kamchatka’s rugged landscapes, spot brown bears, and experience authentic local culture.",
+    location: "russia",
+    duration: 10,
+    cost: 4000,
+  },
+  {
+    id: 9,
+    image: tour9,
+    date: "December 5th, 2027",
+    title: "Antarctica Expedition from Patagonia",
+    info:
+      "Embark on the ultimate polar adventure! Depart from Patagonia and cruise across the Southern Ocean to explore Antarctica’s icy landscapes, glaciers, and abundant wildlife, including penguins, seals, and whales.",
+    location: "antarctica",
+    duration: 14,
+    cost: 15000,
   },
 ];
